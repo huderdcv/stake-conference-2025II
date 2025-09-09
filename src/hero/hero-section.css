@@ -12,6 +12,7 @@
     ),
     url('/images/hero-section/AdobeStock_542165084.jpg');
   background-size: cover;
+  overflow: hidden;
 }
 
 .hero-container {
@@ -22,7 +23,7 @@
 .heading-primary {
   text-transform: uppercase;
   font-family: var(--font-dm-serif-display);
-  color: #fff;
+  color: #fbeded;
 }
 
 .hero-description {
@@ -65,11 +66,13 @@
 .btn--outline:visited {
   background-color: #fff;
   color: var(--gray-color);
-  box-shadow: inset 0 0 0 3px #fff;
+  transition: all 0.5s;
 }
 .btn--outline:hover,
 .btn--outline:active {
+  /* background-color: rgba(255, 255, 255, 0.7); */
   background-color: transparent;
+  box-shadow: inset 0 0 0 3px #fff;
   color: #fff;
 }
 
@@ -89,6 +92,7 @@
   bottom: 0;
   right: 0;
   transform: scaleX(-1) translateX(-50%);
+  opacity: 0.75;
 }
 
 @media (max-width: 1700px) {
@@ -121,7 +125,7 @@
 }
 
 .social-icon {
-  color: #111;
+  color: #333;
   width: 3.2rem;
   height: 3.2rem;
   transition: all 0.3s;
