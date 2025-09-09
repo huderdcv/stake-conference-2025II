@@ -3,6 +3,7 @@ import './hero-section.css';
 import { Navbar } from '@/ui';
 import Link from 'next/link';
 import Image from 'next/image';
+import { SocialItems } from './components';
 export const HeroSection = () => {
   return (
     <section className="hero-section">
@@ -27,6 +28,7 @@ export const HeroSection = () => {
         height={2561}
         // style={{ width: '50%', height: 'auto' }}
       />
+      <SocialItems />
     </section>
   );
 };
