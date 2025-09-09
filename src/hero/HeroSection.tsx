@@ -21,7 +21,7 @@ export const HeroSection = () => {
       </div>
       <Image
         className="hero-image"
-        src="/images/picture_of_jesus.png"
+        src="/images/hero-section/picture_of_jesus.png"
         alt="image of jesuschrist"
         width={2592}
         height={2561}
