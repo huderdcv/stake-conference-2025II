@@ -19,7 +19,7 @@ export const Navbar = () => {
         </Link>
         <nav className="main-nav">
           <ul className="main-nav-list">
-            <Link href={'#'}>Acerca de</Link>
+            <Link href={'#about-section'}>Acerca de</Link>
             <Link href={'#'}>Discursantes</Link>
             <Link href={'#'}>Programa</Link>
             <Link href={'#'}>Testimonios</Link>

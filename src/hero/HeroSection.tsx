@@ -13,7 +13,7 @@ export const HeroSection = () => {
         <h1 className="heading-primary margin-bt-lg">
           Fortalece tu fe y encuentra respuestas en Cristo
         </h1>
-        <Link href="#" className="btn btn--outline margin-r-sm">
+        <Link href="#about-section" className="btn btn--outline margin-r-sm">
           Más información
         </Link>
         <Link href="#" className="btn btn--full">

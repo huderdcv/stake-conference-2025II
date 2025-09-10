@@ -59,3 +59,31 @@ body {
   font-weight: 400;
   color: #555;
 }
+
+/* **************************************** */
+/*? GENERAL REUSABLES COMPONENTS  */
+/* **************************************** */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+/* resusable grid */
+.grid {
+  display: grid;
+}
+
+/* variations */
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.gap-lg {
+  gap: 9.6rem;
+}
