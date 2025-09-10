@@ -87,3 +87,19 @@ body {
 .gap-lg {
   gap: 9.6rem;
 }
+
+.column-gap-md {
+  column-gap: 6.4rem;
+}
+
+/* helper class */
+.margin-bt-lg {
+  margin-bottom: 8rem !important;
+}
+.margin-bt-xl {
+  margin-bottom: 9.6rem !important;
+}
+
+.margin-r-sm {
+  margin-right: 1.6rem !important;
+}

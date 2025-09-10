@@ -1,10 +1,11 @@
 import React from 'react';
 import './about.css';
 import Image from 'next/image';
+import { FeaturesAbout } from './components';
 export const AboutSection = () => {
   return (
     <section id="about-section" className="about-section">
-      <div className="container grid grid--2-cols about-container-gap">
+      <div className="container grid grid--2-cols about-container-gap margin-bt-xl">
         <h2 className="heading-secondary about-title">
           Acerca de la <span>conferencia</span>
         </h2>
@@ -39,6 +40,8 @@ export const AboutSection = () => {
           respuestas a las preguntas más importantes de la vida.{' '}
         </p>
       </div>
+
+      <FeaturesAbout />
     </section>
   );
 };

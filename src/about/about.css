@@ -59,3 +59,26 @@
 .about-image-3:hover {
   transform: scale(1.1);
 }
+
+/* features component */
+.feature {
+}
+.feature-icon {
+  color: #111;
+  color: #da4f48;
+
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 2.4rem;
+}
+.feature-title {
+  font-size: 2.8rem;
+  color: #111;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.feature-description {
+  font-size: 1.8rem;
+  color: #111;
+  line-height: 1.8;
+}
