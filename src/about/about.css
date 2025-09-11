@@ -1,6 +1,6 @@
 .about-section {
   padding: 12.8rem 0;
-  background-color: #f8dcda;
+  background-color: #fbeded;
 }
 
 .about-container-gap {
@@ -9,7 +9,7 @@
 }
 .heading-secondary {
   font-size: 5.2rem;
-  color: #111;
+  color: #333;
   text-transform: uppercase;
   font-family: var(--font-dm-serif-display);
   font-weight: normal;
@@ -44,8 +44,8 @@
   height: auto;
 }
 .about-description {
-  font-size: 2rem;
-  color: #111;
+  font-size: 1.8rem;
+  color: #555;
   line-height: 1.5;
 }
 .about-image-3 {
@@ -67,18 +67,18 @@
   color: #111;
   color: #da4f48;
 
-  width: 3rem;
-  height: 3rem;
+  width: 2.6rem;
+  height: 2.6rem;
   margin-bottom: 2.4rem;
 }
 .feature-title {
   font-size: 2.8rem;
-  color: #111;
+  color: #333;
   font-weight: 600;
   margin-bottom: 1.6rem;
 }
 .feature-description {
   font-size: 1.8rem;
-  color: #111;
+  color: #555;
   line-height: 1.8;
 }
