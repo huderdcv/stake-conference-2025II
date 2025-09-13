@@ -1,9 +1,10 @@
 import React from 'react';
-import './hero-section.css';
 import { Navbar } from '@/ui';
 import Link from 'next/link';
 import Image from 'next/image';
 import { SocialItems } from './components';
+import './hero-section.css';
+
 export const HeroSection = () => {
   return (
     <section className="hero-section">

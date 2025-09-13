@@ -6,9 +6,10 @@ export const AboutSection = () => {
   return (
     <section id="about-section" className="about-section">
       <div className="container grid grid--2-cols about-container-gap margin-bt-xl">
-        <h2 className="heading-secondary about-title">
-          Acerca de la <span>conferencia</span>
-        </h2>
+        <div>
+          <div className="sub-heading">Acerca de</div>
+          <h2 className="heading-secondary about-title">La conferencia</h2>
+        </div>
 
         <Image
           src="/images/about-section/sermon_on_the_mount.jpeg"

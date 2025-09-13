@@ -7,24 +7,6 @@
   column-gap: 12.8rem;
   row-gap: 8rem;
 }
-.heading-secondary {
-  font-size: 5.2rem;
-  color: #333;
-  text-transform: uppercase;
-  font-family: var(--font-dm-serif-display);
-  font-weight: normal;
-  line-height: 0.9;
-  letter-spacing: -0.5px;
-}
-
-.about-title span {
-  /* align-self: center; */
-  /* justify-self: center; */
-  /* text-align: center; */
-  display: block;
-  margin-left: 4.8rem;
-  transition: all 0.3s;
-}
 
 .about-title:hover span {
   margin-left: 6.4rem;
