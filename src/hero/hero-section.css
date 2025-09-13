@@ -59,7 +59,7 @@
 }
 .btn--full:hover,
 .btn--full:active {
-  background-color: #ae3f3a;
+  background-color: #c44741;
 }
 
 .btn--outline:link,
@@ -71,9 +71,9 @@
 .btn--outline:hover,
 .btn--outline:active {
   /* background-color: rgba(255, 255, 255, 0.7); */
-  background-color: transparent;
-  box-shadow: inset 0 0 0 3px #fff;
-  color: #fff;
+  background-color: #cdcdcd;
+  /* box-shadow: inset 0 0 0 3px #fff; */
+  /* color: #fff; */
 }
 
 .margin-bt-lg {
