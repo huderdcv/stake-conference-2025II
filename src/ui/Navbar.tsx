@@ -22,7 +22,7 @@ export const Navbar = () => {
             <Link href={'#about-section'}>Acerca de</Link>
             <Link href={'#speakers-section'}>Discursantes</Link>
             <Link href={'#schedule-section'}>Programa</Link>
-            <Link href={'#'}>Testimonios</Link>
+            <Link href={'#testimonials-section'}>Testimonios</Link>
             <Link href={'#'}>FAQ</Link>
           </ul>
         </nav>

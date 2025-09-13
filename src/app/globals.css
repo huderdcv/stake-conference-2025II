@@ -106,9 +106,23 @@ body {
 .gap-lg {
   gap: 9.6rem;
 }
-
+.column-gap-xl {
+  column-gap: 12.8rem;
+}
+.column-gap-lg {
+  column-gap: 9.6rem;
+}
 .column-gap-md {
   column-gap: 6.4rem;
+}
+.row-gap-xl {
+  row-gap: 12.8rem;
+}
+.row-gap-lg {
+  row-gap: 9.6rem;
+}
+.row-gap-md {
+  row-gap: 6.4rem;
 }
 
 /* helper class */
