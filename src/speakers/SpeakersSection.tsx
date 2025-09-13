@@ -51,7 +51,7 @@ export const SpeakersSection = () => {
       <div className="container">
         <div className="sub-heading">Discursantes</div>
         <h2 className="heading-secondary margin-bt-lg">
-          Siervos inspirados listos para compartir el mensaje de Cristo
+          Siervos inspirados de Cristo listos para compartir su mensaje
         </h2>
         <div className="speakers-container grid grid--3-cols speakers-gap">
           {speakers.map((speaker) => (
