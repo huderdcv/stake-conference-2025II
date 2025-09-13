@@ -23,7 +23,6 @@ export const Navbar = () => {
             <Link href={'#speakers-section'}>Discursantes</Link>
             <Link href={'#schedule-section'}>Programa</Link>
             <Link href={'#testimonials-section'}>Testimonios</Link>
-            <Link href={'#'}>FAQ</Link>
           </ul>
         </nav>
         <Link href="#" className="btn btn--full btn-md">
