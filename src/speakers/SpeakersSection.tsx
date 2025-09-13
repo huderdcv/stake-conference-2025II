@@ -47,7 +47,7 @@ const speakers = [
 
 export const SpeakersSection = () => {
   return (
-    <section className="speakers-section">
+    <section id="speakers-section" className="speakers-section">
       <div className="container">
         <div className="sub-heading">Discursantes</div>
         <h2 className="heading-secondary margin-bt-lg">
