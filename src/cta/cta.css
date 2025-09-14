@@ -1,0 +1,91 @@
+.cta-section {
+  padding: 9.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.cta-container {
+  background-color: #de615a;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem;
+  align-self: center;
+}
+
+.cta-heading {
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.cta-input {
+  width: 100%;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  font-family: var(--font-great-vibes);
+  font-size: 2rem;
+}
+.cta-input:focus {
+  border: none;
+  outline: none;
+}
+.button-container {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem;
+}
+.cta-button {
+  background-color: var(--brand-color);
+  padding: 0.8rem 1.6rem;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cta-button:hover {
+  background-color: #c44741;
+}
+.cta-image-container {
+  position: relative;
+  align-self: start;
+}
+.cta-image-box {
+}
+.cta-image {
+  width: 100%;
+  height: auto;
+}
+.cta-image-text {
+  position: absolute;
+  top: 32%;
+  left: 56%;
+  font-family: var(--font-great-vibes);
+  font-size: 2rem;
+  color: #333;
+}
+
+/* sweet alert */
+.swal-title {
+  font-size: 3rem !important; /* título más grande */
+  font-weight: bold;
+}
+
+.swal-text {
+  font-size: 1.4rem !important; /* texto más grande */
+  line-height: 1;
+}
+.my-confirm-btn {
+  font-size: 2rem;
+  border-radius: 0%;
+}

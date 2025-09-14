@@ -20,8 +20,8 @@ export const HeroSection = () => {
         <div className="hero-countdown">
           <CountDown />
         </div>
-        <Link href="#" className="btn btn--full margin-r-n">
-          Fortalece tu fe
+        <Link href="#cta-section" className="btn btn--full margin-r-n">
+          Obtener Invitación
         </Link>
         <Link href="#about-section" className="btn btn--outline">
           Más información &darr;

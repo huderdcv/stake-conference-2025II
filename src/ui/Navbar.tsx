@@ -25,7 +25,7 @@ export const Navbar = () => {
             <Link href={'#testimonials-section'}>Testimonios</Link>
           </ul>
         </nav>
-        <Link href="#" className="btn btn--full btn-md">
+        <Link href="#cta-section" className="btn btn--full btn-md">
           Asistir
         </Link>
       </header>

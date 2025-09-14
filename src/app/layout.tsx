@@ -1,5 +1,11 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono, Lato, DM_Serif_Display } from 'next/font/google';
+import {
+  Geist,
+  Geist_Mono,
+  Lato,
+  DM_Serif_Display,
+  Great_Vibes,
+} from 'next/font/google';
 import './globals.css';
 
 const geistSans = Geist({
@@ -21,6 +27,10 @@ const dmSerifDisplay = DM_Serif_Display({
   variable: '--font-dm-serif-display',
   weight: ['400'],
 });
+const greatVibes = Great_Vibes({
+  variable: '--font-great-vibes',
+  weight: ['400'],
+});
 
 export const metadata: Metadata = {
   title: 'Conferencia de Estaca Ayacucho | Fortalece tu fe en Cristo',
@@ -35,7 +45,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${lato.variable} ${dmSerifDisplay.variable}`}>
+      <body
+        className={`${lato.variable} ${dmSerifDisplay.variable} ${greatVibes.variable}`}
+      >
         {children}
       </body>
     </html>
