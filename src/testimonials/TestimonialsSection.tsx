@@ -23,7 +23,7 @@ const testimonials = [
   {
     author: 'Huder De La Cruz',
     testimonialDesc:
-      'Asistir a la conferencia me dio la respuesta que estaba buscando. Sentí paz y claridad al tomar decisiones en mi vida.',
+      'Asistir a la conferencia me llena de conocimiento, fe y esperanza. Me acerco más a Cristo y soy más feliz.',
     imgUrl: '/images/testimonials-section/photo-03.png',
     imageDesc: 'Fotografia 03',
     width: 484,
