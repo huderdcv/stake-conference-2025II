@@ -3,40 +3,40 @@ import { TestimonialCard } from './components';
 
 const testimonials = [
   {
-    author: 'Eva Gavilan y Jhoshep Chipana',
+    author: 'Eva Gavilan',
     testimonialDesc:
-      'Escuchar los mensajes nos da esperanza en medio de las preocupaciones. El Señor nos habla directamente al corazón.',
-    imgUrl: '/images/testimonials-section/photo-01.png',
-    imageDesc: 'Fotografia de Eva y Jhoshep',
-    width: 824,
-    height: 824,
+      'Que hermoso es crecer en la fe de la mano con la persona que amas. Y en esta conferencia nos acercara más al Señor y poder hacer su voluntad.',
+    imgUrl: '/images/testimonials-section/eva-gavilan.jpg',
+    imageDesc: 'Fotografia de Eva',
+    width: 720,
+    height: 720,
   },
   {
-    author: 'Luis Arteaga y Monica Torres',
+    author: 'Rubén Martínez y Elizabeth León',
     testimonialDesc:
-      'La conferencia nos ayudó a sentir el Espíritu y recordar que Dios tiene un plan para nosotros. Salimos con más fe y ánimo.',
-    imgUrl: '/images/testimonials-section/photo-02.png',
-    imageDesc: 'Fotografia 2',
-    width: 400,
-    height: 400,
+      'Como matrimonio, agradecemos las conferencias porque fortalecen nuestra fe y nos enseñan a centrar nuestro hogar en Jesucristo.',
+    imgUrl: '/images/testimonials-section/ruben-elizabeth.png',
+    imageDesc: 'Fotografia de Ruben Martinez y Elizabeth Leon',
+    width: 918,
+    height: 918,
+  },
+  {
+    author: 'Lenin Cuba y Minerva Arca',
+    testimonialDesc:
+      'Asistir a la conferencia nos ayuda a sentir más el Espíritu Santo, a recibir respuestas y a comprender que Dios tiene un plan para nosotros.',
+    imgUrl: '/images/testimonials-section/lenin-minerva.jpeg',
+    imageDesc: 'Fotografia de Lenin y Minerva',
+    width: 999,
+    height: 999,
   },
   {
     author: 'Huder De La Cruz',
     testimonialDesc:
-      'Asistir a la conferencia me llena de conocimiento, fe y esperanza. Me acerco más a Cristo y soy más feliz.',
-    imgUrl: '/images/testimonials-section/photo-03.png',
-    imageDesc: 'Fotografia 03',
-    width: 484,
-    height: 484,
-  },
-  {
-    author: 'Silvana Rodriguez',
-    testimonialDesc:
-      'En la conferencia sentí una fortaleza especial para mi familia. Volví a casa con más amor y deseo de servir a los míos.',
-    imgUrl: '/images/testimonials-section/photo-04.png',
-    imageDesc: 'Fotografia 04',
-    width: 818,
-    height: 818,
+      'Asistir a mi primera conferencia fue un punto clave en mi acercamiento a Cristo. Ahora cada conferencia me da conocimiento y gozo.',
+    imgUrl: '/images/testimonials-section/huder-delacruz.png',
+    imageDesc: 'Fotografia de Huder',
+    width: 1036,
+    height: 1036,
   },
 ];
 

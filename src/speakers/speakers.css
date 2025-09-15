@@ -69,3 +69,9 @@
   width: 40%;
   text-align: center;
 }
+.more-speakers {
+  transition: all 0.3s;
+}
+.more-speakers:hover {
+  transform: scale(1.1);
+}

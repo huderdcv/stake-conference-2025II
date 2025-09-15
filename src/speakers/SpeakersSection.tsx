@@ -1,7 +1,9 @@
+'use client';
+
 import React from 'react';
 import './speakers.css';
-import Image from 'next/image';
 import { SpeakerCard } from './components';
+import confetti from 'canvas-confetti';
 
 const speakers = [
   {
@@ -46,6 +48,13 @@ const speakers = [
 ];
 
 export const SpeakersSection = () => {
+  const handleMoreSpeakerAnimation = () => {
+    confetti({
+      particleCount: 150,
+      spread: 70,
+      origin: { y: 0.6 },
+    });
+  };
   return (
     <section id="speakers-section" className="speakers-section">
       <div className="container">
@@ -57,7 +66,10 @@ export const SpeakersSection = () => {
           {speakers.map((speaker) => (
             <SpeakerCard key={speaker.name} {...speaker} />
           ))}
-          <div className="more-speakers">
+          <div
+            // onMouseOutCapture={handleMoreSpeakerAnimation}
+            className="more-speakers"
+          >
             <p>Y muchos discursantes más...</p>
           </div>
         </div>

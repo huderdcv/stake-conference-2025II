@@ -76,11 +76,6 @@ export const Footer = () => {
                 Testimonios
               </Link>
             </li>
-            <li>
-              <Link href={'#'} className="footer-link">
-                Asistir
-              </Link>
-            </li>
           </ul>
           <p className="footer-msg">
             Este sitio web especial es parte de la difusión local de la
