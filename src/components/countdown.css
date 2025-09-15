@@ -1,0 +1,28 @@
+.countdown-container {
+  display: flex;
+  justify-content: center;
+}
+.countdown-box {
+  display: flex;
+  gap: 3.2rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  /* padding: 1rem 2rem; */
+}
+.cd-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.3s;
+}
+.cd-value {
+  color: #ddd;
+  font-size: 4.4rem;
+  font-weight: 40;
+}
+.cd-property {
+  color: #ddd;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}

@@ -34,13 +34,14 @@
 .heading-primary {
   text-transform: uppercase;
   font-family: var(--font-dm-serif-display);
-  color: #fff;
 }
 .heading-primary {
   font-size: 6.2rem;
   font-weight: 400;
   line-height: 0.9;
   letter-spacing: -1px;
+  color: #fff;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.7);
 }
 
 .hero-description {
@@ -48,6 +49,8 @@
   margin-bottom: 1.6rem;
   font-weight: 400;
   letter-spacing: 1.3px;
+  color: #eee;
+  text-shadow: 0.2rem 0.2rem 0.3rem rgba(0, 0, 0, 0.7);
 }
 .hero-countdown {
   margin-bottom: 8rem;
