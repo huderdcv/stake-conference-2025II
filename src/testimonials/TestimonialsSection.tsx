@@ -62,7 +62,10 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-    <section id="testimonials-section" className="testimonials-section">
+    <section
+      id="testimonials-section"
+      className="testimonials-section animate__animated animate__fadeIn"
+    >
       <div className="container">
         <div className="sub-heading">Testimonios</div>
         <h2 className="heading-secondary">

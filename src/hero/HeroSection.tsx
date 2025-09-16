@@ -8,7 +8,7 @@ import { CountDown } from '@/components';
 
 export const HeroSection = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section animate__animated animate__fadeIn">
       <Navbar />
       <div className="hero-container">
         <h1 className="heading-primary margin-bt-n">
@@ -17,7 +17,7 @@ export const HeroSection = () => {
         <p className="hero-description">
           Conferencia de la Estaca Ayacucho - 20 y 21 de Septiembre
         </p>
-        <div className="hero-countdown">
+        <div className="hero-countdown ">
           <CountDown />
         </div>
         <Link href="#cta-section" className="btn btn--full margin-r-n">

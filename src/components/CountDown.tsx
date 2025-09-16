@@ -11,9 +11,9 @@ export const CountDown = () => {
   // if (isLoading) return <p>hola</p>;
   return (
     <div className="countdown-container">
-      <div className="countdown-box">
+      <div className="countdown-box animate__animated animate__fadeInUp">
         <div
-          className="cd-item"
+          className="cd-item "
           style={{ opacity: `${isLoading ? '0' : '100%'}` }}
         >
           <span className="cd-value">
@@ -36,7 +36,7 @@ export const CountDown = () => {
           className="cd-item"
           style={{ opacity: `${isLoading ? '0' : '100%'}` }}
         >
-          <span className="cd-value">
+          <span className="cd-value ">
             {minutes < 10 && '0'}
             {minutes}
           </span>

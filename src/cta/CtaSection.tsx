@@ -19,7 +19,7 @@ export const CtaSection = () => {
   const handleButtonDownload = async () => {
     if (inputValue.trim().length < 3) {
       Swal.fire({
-        title: '¡Sin nombre!',
+        title: '¡Nombre incorrecto!',
         text: 'Introduce un nombre mayor o igual a 3 letras',
         icon: 'warning',
         confirmButtonText: 'Aceptar',
@@ -50,7 +50,7 @@ export const CtaSection = () => {
     //alert
     Swal.fire({
       title: '¡Invitación descargada!',
-      text: 'Ya tienes tu invitación personalizada. Te esperamos en la conferencia',
+      text: 'Revisalo en tu dispositivo. No te olvides compartirlo.',
       icon: 'success',
       confirmButtonText: 'Aceptar',
       confirmButtonColor: '#3085d6',
@@ -72,7 +72,7 @@ export const CtaSection = () => {
   return (
     <section id="cta-section" className="cta-section">
       <div className="container ">
-        <div className="cta-container grid grid--2-cols">
+        <div className="cta-container grid grid--2-cols animate__animated animate__fadeIn">
           <div className="cta-text-box">
             <h2 className="heading-secondary cta-heading">
               Invitación para ti o alguien especial
@@ -101,7 +101,7 @@ export const CtaSection = () => {
             </div>
           </div>
           {/* <div className="cta-image-container" ref={invitationRef}> */}
-          <div className="cta-image-container">
+          <div className="cta-image-container animate__animated animate__fadeInRight">
             <div className="cta-image-box">
               <Image
                 src={`/images/cta/conference-invitation-1.png`}

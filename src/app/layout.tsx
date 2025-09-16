@@ -6,6 +6,7 @@ import {
   DM_Serif_Display,
   Great_Vibes,
 } from 'next/font/google';
+import 'animate.css';
 import './globals.css';
 
 const geistSans = Geist({
