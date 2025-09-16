@@ -36,7 +36,7 @@ const greatVibes = Great_Vibes({
 export const metadata: Metadata = {
   title: 'Conferencia de Estaca Ayacucho | Fortalece tu fe en Cristo',
   description:
-    'Participa en la Conferencia de Estaca Ayacucho. Mensajes de fe, esperanza y respuestas en Jesucristo para ti y tu familia. Entrada libre.',
+    'Participa en la Conferencia de Estaca Ayacucho. Mensajes de fe, esperanza y respuestas en Jesucristo para ti y tu familia.',
 };
 
 export default function RootLayout({
