@@ -8,7 +8,7 @@ import { CountDown } from '@/components';
 
 export const HeroSection = () => {
   return (
-    <section className="hero-section animate__animated animate__fadeIn">
+    <section className="hero-section">
       <Navbar />
       <div className="hero-container">
         <h1 className="heading-primary margin-bt-n">

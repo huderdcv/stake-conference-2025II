@@ -54,10 +54,7 @@ export const SpeakersSection = () => {
     });
   };
   return (
-    <section
-      id="speakers-section"
-      className="speakers-section animate__animated animate__fadeIn"
-    >
+    <section id="speakers-section" className="speakers-section">
       <div className="container">
         <div className="sub-heading">Discursantes</div>
         <h2 className="heading-secondary">

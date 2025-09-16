@@ -9,7 +9,6 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
     "canvas-confetti": "^1.9.3",
     "html2canvas": "^1.4.1",
     "next": "15.5.2",

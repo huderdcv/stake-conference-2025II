@@ -72,7 +72,7 @@ export const CtaSection = () => {
   return (
     <section id="cta-section" className="cta-section">
       <div className="container ">
-        <div className="cta-container grid grid--2-cols animate__animated animate__fadeIn">
+        <div className="cta-container grid grid--2-cols">
           <div className="cta-text-box">
             <h2 className="heading-secondary cta-heading">
               Invitación para ti o alguien especial
@@ -101,7 +101,7 @@ export const CtaSection = () => {
             </div>
           </div>
           {/* <div className="cta-image-container" ref={invitationRef}> */}
-          <div className="cta-image-container animate__animated animate__fadeInRight">
+          <div className="cta-image-container">
             <div className="cta-image-box">
               <Image
                 src={`/images/cta/conference-invitation-1.png`}

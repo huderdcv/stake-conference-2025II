@@ -4,10 +4,7 @@ import Image from 'next/image';
 import { FeaturesAbout } from './components';
 export const AboutSection = () => {
   return (
-    <section
-      id="about-section"
-      className="about-section animate__animated animate__fadeIn"
-    >
+    <section id="about-section" className="about-section">
       <div className="container grid grid--2-cols about-container-gap margin-bt-xl">
         <div className="heading-box">
           <div className="sub-heading">Acerca de</div>
@@ -34,7 +31,7 @@ export const AboutSection = () => {
             alt="Jesucristo sonriendo"
             width={1920}
             height={2885}
-            className="about-image-3 animate__animated animate__fadeInUp"
+            className="about-image-3"
           />
         </div>
         <p className="about-description">

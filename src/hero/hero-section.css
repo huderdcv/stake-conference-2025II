@@ -213,6 +213,9 @@ PHONES
 544px
 34em */
 @media (max-width: 34em) {
+  .hero-container {
+    top: 43%;
+  }
   .btn:link,
   .btn:visited {
     margin-bottom: 0.8rem;
