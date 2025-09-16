@@ -38,7 +38,7 @@ export const CtaSection = () => {
     const canvas = await html2canvas(exportRef.current, {
       width: 1965, // ancho final en px
       height: 1600, // alto final en px
-      // scale: window.devicePixelRatio,, // evita duplicar tamaños (usa los que definimos arriba)
+      scale: 1, // evita duplicar tamaños (usa los que definimos arriba)
     });
     const link = document.createElement('a');
     link.download = `Invitacion-especial-para-${inputValue
