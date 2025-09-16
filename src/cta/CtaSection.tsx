@@ -11,7 +11,7 @@ import './cta.css';
 
 export const CtaSection = () => {
   const [inputValue, setInputValue] = useState('');
-  const invitationRef = useRef(null);
+  const exportRef = useRef(null);
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
@@ -34,11 +34,11 @@ export const CtaSection = () => {
       return;
     }
     // canvas
-    if (!invitationRef.current) return;
-    const canvas = await html2canvas(invitationRef.current, {
-      // width: 1965, // ancho final en px
-      // height: 1600, // alto final en px
-      scale: 3, // evita duplicar tamaños (usa los que definimos arriba)
+    if (!exportRef.current) return;
+    const canvas = await html2canvas(exportRef.current, {
+      width: 1965, // ancho final en px
+      height: 1600, // alto final en px
+      // scale: window.devicePixelRatio,, // evita duplicar tamaños (usa los que definimos arriba)
     });
     const link = document.createElement('a');
     link.download = `Invitacion-especial-para-${inputValue
@@ -100,7 +100,8 @@ export const CtaSection = () => {
               </div>
             </div>
           </div>
-          <div className="cta-image-container" ref={invitationRef}>
+          {/* <div className="cta-image-container" ref={invitationRef}> */}
+          <div className="cta-image-container">
             <div className="cta-image-box">
               <Image
                 src={`/images/cta/conference-invitation-1.png`}
@@ -111,6 +112,25 @@ export const CtaSection = () => {
               />
             </div>
             <p className="cta-image-text">{inputValue}</p>
+          </div>
+          {/* container oculto */}
+          <div
+            ref={exportRef}
+            style={{
+              width: '1965px',
+              height: '1600px',
+              position: 'absolute',
+              left: '-9999px', // fuera de pantalla
+              top: 0,
+              backgroundImage: "url('/images/cta/conference-invitation-1.png')",
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+            }}
+          >
+            <span className="cta-image-text-2">{inputValue}</span>
           </div>
         </div>
       </div>
