@@ -209,6 +209,16 @@ TABLETS
 }
 
 /* 
+PHONES
+544px
+34em */
+@media (max-width: 34em) {
+  .btn:link,
+  .btn:visited {
+    margin-bottom: 0.8rem;
+  }
+}
+/* 
 - Font sizes (px)
       10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 

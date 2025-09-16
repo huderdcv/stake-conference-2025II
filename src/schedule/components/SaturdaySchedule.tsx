@@ -6,7 +6,7 @@ const saturdayInfo = {
     {
       name: '5:30PM - SESIÓN DE LÍDERES DEL CONSEJO DE BARRIO Y ESTACA AMPLIADO ',
       descriptions: [
-        'Asisten líderes en general, organizaciones completas de barrio y estaca; presidentes de diaconos y maestros.',
+        'Asisten líderes en general, así como organizaciones completas de barrio y estaca, junto con secretarios, maestros y presidentes de cuórum de diáconos y maestros.',
         'Jr. 28 de julio 716 (Alameda Valdelirios) - Huamanga',
       ],
     },

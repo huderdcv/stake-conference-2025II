@@ -103,8 +103,8 @@ TABLETS
     width: 60%;
   }
   .about-image-3 {
-    right: 15rem;
-    top: -15rem;
+    right: 12rem;
+    top: -8rem;
   }
   .container-features {
     grid-template-columns: 1fr 1fr;
@@ -116,6 +116,21 @@ TABLETS
   }
   .about-description {
     order: -1;
+  }
+}
+
+/* 
+PHONES
+544px
+34em */
+@media (max-width: 34em) {
+  .about-image-3 {
+    right: 9rem;
+    top: -5rem;
+  }
+  .container-features {
+    grid-template-columns: 1fr;
+    column-gap: 4.8rem;
   }
 }
 
