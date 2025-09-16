@@ -87,6 +87,10 @@ TABLETS
   .section-header {
     z-index: 20;
     justify-content: space-between;
+    padding: 0 2.4rem;
+  }
+  .mobile-nav {
+    right: 2.4rem;
   }
 
   .header-menu {

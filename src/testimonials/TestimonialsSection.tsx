@@ -14,7 +14,7 @@ const testimonials = [
   {
     author: 'Eva Gavilan',
     testimonialDesc:
-      'Que hermoso es crecer en la fe de la mano con la persona que amas. Y en esta conferencia nos acercara más al Señor y poder hacer su voluntad.',
+      'Que hermoso es crecer en la fe de la mano con la persona que amas. Y en esta conferencia nos acercará más al Señor y poder hacer su voluntad.',
     imgUrl: '/images/testimonials-section/eva-gavilan.webp',
     imageDesc: 'Fotografia de Eva',
     width: 720,
@@ -52,7 +52,7 @@ const testimonials = [
   {
     author: 'Margarita Carhuancho',
     testimonialDesc:
-      'Asistir y escuchar los mensajes de la Conferencia, es escuchar la voz de Dios atravez de sus siervos. Por medio de  los mensajes puedo recibir fortaleza  y respuestas a mis preguntas.',
+      'Asistir y escuchar los mensajes de la Conferencia es escuchar la voz de Dios a través de sus siervos. Por medio de  los mensajes puedo recibir fortaleza  y respuestas a mis preguntas.',
     imgUrl: '/images/testimonials-section/margarita-carhuancho.webp',
     imageDesc: 'Fotografia de Margarita',
     width: 526,
