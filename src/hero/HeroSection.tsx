@@ -21,7 +21,7 @@ export const HeroSection = () => {
           <CountDown />
         </div>
         <Link href="#cta-section" className="btn btn--full margin-r-n">
-          Obtener Invitación
+          Fortalece tu fe
         </Link>
         <Link href="#about-section" className="btn btn--outline">
           Más información &darr;

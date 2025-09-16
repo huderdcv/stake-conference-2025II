@@ -31,7 +31,7 @@ export const Navbar = () => {
             </ul>
           </nav>
           <Link href="#cta-section" className="btn btn--full btn-md">
-            Asistir
+            Invitación
           </Link>
         </div>
         <button onClick={() => setNavOpen(!navOpen)} className="mobile-nav">

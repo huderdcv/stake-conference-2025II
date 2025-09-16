@@ -1,11 +1,13 @@
 'use client';
 
 import React, { useRef, useState } from 'react';
-import './cta.css';
 import Image from 'next/image';
 import confetti from 'canvas-confetti';
 import html2canvas from 'html2canvas';
 import Swal from 'sweetalert2';
+import { LuDownload } from 'react-icons/lu';
+
+import './cta.css';
 
 export const CtaSection = () => {
   const [inputValue, setInputValue] = useState('');
@@ -83,8 +85,8 @@ export const CtaSection = () => {
             <div className="cta-form">
               <input
                 type="text"
-                name=""
-                id=""
+                name="invitation-name"
+                id="invitation-name"
                 placeholder="Tu nombre o el de un amigo"
                 className="cta-input"
                 value={inputValue}
@@ -92,7 +94,8 @@ export const CtaSection = () => {
               />
               <div className="button-container">
                 <button onClick={handleButtonDownload} className="cta-button">
-                  Descargar invitación
+                  <LuDownload className="cta-button-icon" />
+                  <span>Descargar invitación</span>
                 </button>
               </div>
             </div>

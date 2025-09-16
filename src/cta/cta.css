@@ -52,9 +52,19 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
 }
+
 .cta-button:hover {
   background-color: #c44741;
+}
+.cta-button-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #fff;
 }
 .cta-image-container {
   position: relative;

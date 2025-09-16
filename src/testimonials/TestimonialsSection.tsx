@@ -3,15 +3,6 @@ import { TestimonialCard } from './components';
 
 const testimonials = [
   {
-    author: 'Eva Gavilan',
-    testimonialDesc:
-      'Que hermoso es crecer en la fe de la mano con la persona que amas. Y en esta conferencia nos acercara más al Señor y poder hacer su voluntad.',
-    imgUrl: '/images/testimonials-section/eva-gavilan.jpg',
-    imageDesc: 'Fotografia de Eva',
-    width: 720,
-    height: 720,
-  },
-  {
     author: 'Rubén Martínez y Elizabeth León',
     testimonialDesc:
       'Como matrimonio, agradecemos las conferencias porque fortalecen nuestra fe y nos enseñan a centrar nuestro hogar en Jesucristo.',
@@ -20,6 +11,16 @@ const testimonials = [
     width: 918,
     height: 918,
   },
+  {
+    author: 'Eva Gavilan',
+    testimonialDesc:
+      'Que hermoso es crecer en la fe de la mano con la persona que amas. Y en esta conferencia nos acercara más al Señor y poder hacer su voluntad.',
+    imgUrl: '/images/testimonials-section/eva-gavilan.jpg',
+    imageDesc: 'Fotografia de Eva',
+    width: 720,
+    height: 720,
+  },
+
   {
     author: 'Lenin Cuba y Minerva Arca',
     testimonialDesc:
