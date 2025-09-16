@@ -6,7 +6,7 @@ const testimonials = [
     author: 'Rubén Martínez y Elizabeth León',
     testimonialDesc:
       'Como matrimonio, agradecemos las conferencias porque fortalecen nuestra fe y nos enseñan a centrar nuestro hogar en Jesucristo.',
-    imgUrl: '/images/testimonials-section/ruben-elizabeth.png',
+    imgUrl: '/images/testimonials-section/ruben-elizabeth.webp',
     imageDesc: 'Fotografia de Ruben Martinez y Elizabeth Leon',
     width: 918,
     height: 918,
@@ -15,7 +15,7 @@ const testimonials = [
     author: 'Eva Gavilan',
     testimonialDesc:
       'Que hermoso es crecer en la fe de la mano con la persona que amas. Y en esta conferencia nos acercara más al Señor y poder hacer su voluntad.',
-    imgUrl: '/images/testimonials-section/eva-gavilan.jpg',
+    imgUrl: '/images/testimonials-section/eva-gavilan.webp',
     imageDesc: 'Fotografia de Eva',
     width: 720,
     height: 720,
@@ -25,7 +25,7 @@ const testimonials = [
     author: 'Lenin Cuba y Minerva Arca',
     testimonialDesc:
       'Asistir a la conferencia nos ayuda a sentir más el Espíritu Santo, a recibir respuestas y a comprender que Dios tiene un plan para nosotros.',
-    imgUrl: '/images/testimonials-section/lenin-minerva.jpeg',
+    imgUrl: '/images/testimonials-section/lenin-minerva.webp',
     imageDesc: 'Fotografia de Lenin y Minerva',
     width: 999,
     height: 999,
@@ -34,7 +34,7 @@ const testimonials = [
     author: 'Huder De La Cruz',
     testimonialDesc:
       'Asistir a mi primera conferencia fue un punto clave en mi acercamiento a Cristo. Ahora cada conferencia me da conocimiento y gozo.',
-    imgUrl: '/images/testimonials-section/huder-delacruz.png',
+    imgUrl: '/images/testimonials-section/huder-delacruz.webp',
     imageDesc: 'Fotografia de Huder',
     width: 1036,
     height: 1036,
@@ -43,7 +43,7 @@ const testimonials = [
     author: 'Maricruz Conga',
     testimonialDesc:
       'Puedo sentir el amor de mi Padre Celestial y de Mi Salvador, cada vez que asisto a la conferencia, esto me ayuda a fortalecer mi conversión en el evangelio de Jesucristo.',
-    imgUrl: '/images/testimonials-section/maricruz-conga.png',
+    imgUrl: '/images/testimonials-section/maricruz-conga.webp',
     imageDesc: 'Fotografia de Maricruz',
     width: 533,
     height: 533,
@@ -53,7 +53,7 @@ const testimonials = [
     author: 'Margarita Carhuancho',
     testimonialDesc:
       'Asistir y escuchar los mensajes de la Conferencia, es escuchar la voz de Dios atravez de sus siervos. Por medio de  los mensajes puedo recibir fortaleza  y respuestas a mis preguntas.',
-    imgUrl: '/images/testimonials-section/margarita-carhuancho.png',
+    imgUrl: '/images/testimonials-section/margarita-carhuancho.webp',
     imageDesc: 'Fotografia de Margarita',
     width: 526,
     height: 526,

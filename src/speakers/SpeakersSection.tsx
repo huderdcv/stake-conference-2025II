@@ -5,14 +5,14 @@ import confetti from 'canvas-confetti';
 
 const speakers = [
   {
-    imageUrl: '/images/speakers-section/elder-palhua.jpg',
+    imageUrl: '/images/speakers-section/elder-palhua.webp',
     description: 'Fotografia del Elder Palhua, Setenta de área',
     name: 'Elder Palhua',
     calling: 'Setenta de Área',
     isPrincipal: true,
   },
   {
-    imageUrl: '/images/speakers-section/presidente-huamani.jpg',
+    imageUrl: '/images/speakers-section/presidente-huamani.webp',
     description:
       'Fotografia del Presidente Huamani, Presidente de la estaca ayacucho',
     name: 'Presidente Huamani',
@@ -20,7 +20,7 @@ const speakers = [
     isPrincipal: false,
   },
   {
-    imageUrl: '/images/speakers-section/presidente-zea.png',
+    imageUrl: '/images/speakers-section/presidente-zea.webp',
     description:
       'Fotografia del Presidente Zea, segundo consejero de la presidencia de estaca ayacucho',
     name: 'Presidente Zea',
@@ -28,7 +28,7 @@ const speakers = [
     isPrincipal: false,
   },
   {
-    imageUrl: '/images/speakers-section/presidentes-byers.jpeg',
+    imageUrl: '/images/speakers-section/presidentes-byers.webp',
     description:
       'Fotografia del Presidente Byers junto a su esposa la hermana Byers, Presidentes de la misión Perú Lima Sur',
     name: 'Pdte y Hna Byers',
@@ -36,7 +36,7 @@ const speakers = [
     isPrincipal: false,
   },
   {
-    imageUrl: '/images/speakers-section/presidente-arangoitia.png',
+    imageUrl: '/images/speakers-section/presidente-arangoitia.webp',
     description:
       'Fotografia del Presidente Alex Arangoitia, Gerente de Bienestar y Autosuficiencia',
     name: 'Presidente Arangoitia',

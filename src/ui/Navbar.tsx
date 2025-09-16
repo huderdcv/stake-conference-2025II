@@ -14,7 +14,7 @@ export const Navbar = () => {
       <header className={`section-header ${navOpen ? 'nav-open' : ''}`}>
         <Link href="#">
           <Image
-            src="/images/navbar/logo-stake-brand-color.png"
+            src="/images/navbar/logo-stake-brand-color.webp"
             alt="logo de la estaca ayacucho"
             width={900}
             height={1203}

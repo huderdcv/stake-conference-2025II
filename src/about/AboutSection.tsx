@@ -12,7 +12,7 @@ export const AboutSection = () => {
         </div>
 
         <Image
-          src="/images/about-section/sermon_on_the_mount.jpeg"
+          src="/images/about-section/sermon_on_the_mount.webp"
           alt="El señor Jesucristo enseñando el Sermon del Monte"
           width={1920}
           height={1280}
@@ -20,14 +20,14 @@ export const AboutSection = () => {
         />
         <div className="images-container">
           <Image
-            src="/images/about-section/jesus_teaching.jpeg"
+            src="/images/about-section/jesus_teaching.webp"
             alt="El señor Jesucristo enseñando en la ciudad"
             width={3840}
             height={2560}
             className="about-image-2"
           />
           <Image
-            src="/images/about-section/jesus_smiling.jpeg"
+            src="/images/about-section/jesus_smiling.webp"
             alt="Jesucristo sonriendo"
             width={1920}
             height={2885}

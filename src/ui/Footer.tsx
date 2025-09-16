@@ -13,7 +13,7 @@ export const Footer = () => {
         <div className="logo-col">
           <Link href={'#'} className="logo-box">
             <Image
-              src={`/images/navbar/logo-stake-brand-color.png`}
+              src={`/images/navbar/logo-stake-brand-color.webp`}
               alt="Logo de la estaca Ayacucho"
               width={900}
               height={1203}
