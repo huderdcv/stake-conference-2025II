@@ -26,3 +26,13 @@
   font-size: 1.2rem;
   letter-spacing: 1px;
 }
+
+/*? MEDIA */
+@media (max-width: 44em) {
+  .cd-value {
+    font-size: 3.6rem;
+  }
+  .cd-property {
+    font-size: 1rem;
+  }
+}

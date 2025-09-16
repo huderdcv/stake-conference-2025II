@@ -32,7 +32,7 @@ const featureList = [
 
 export const FeaturesAbout = () => {
   return (
-    <div className="container grid grid--4-cols column-gap-md">
+    <div className="container grid grid--4-cols column-gap-md container-features">
       {featureList.map((feature) => (
         <FeatureItem key={feature.title} {...feature} />
       ))}

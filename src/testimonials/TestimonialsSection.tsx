@@ -38,6 +38,25 @@ const testimonials = [
     width: 1036,
     height: 1036,
   },
+  {
+    author: 'Maricruz Conga',
+    testimonialDesc:
+      'Puedo sentir el amor de mi Padre Celestial y de Mi Salvador, cada vez que asisto a la conferencia, esto me ayuda a fortalecer mi conversión en el evangelio de Jesucristo.',
+    imgUrl: '/images/testimonials-section/maricruz-conga.png',
+    imageDesc: 'Fotografia de Maricruz',
+    width: 533,
+    height: 533,
+  },
+
+  {
+    author: 'Margarita Carhuancho',
+    testimonialDesc:
+      'Asistir y escuchar los mensajes de la Conferencia, es escuchar la voz de Dios atravez de sus siervos. Por medio de  los mensajes puedo recibir fortaleza  y respuestas a mis preguntas.',
+    imgUrl: '/images/testimonials-section/margarita-carhuancho.png',
+    imageDesc: 'Fotografia de Margarita',
+    width: 526,
+    height: 526,
+  },
 ];
 
 export const TestimonialsSection = () => {

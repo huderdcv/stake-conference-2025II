@@ -1,5 +1,3 @@
-import styles from './page.module.css';
-
 import { Footer } from '@/ui';
 import { HeroSection } from '@/hero';
 import { AboutSection } from '@/about';

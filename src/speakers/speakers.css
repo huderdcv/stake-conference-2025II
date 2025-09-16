@@ -75,3 +75,25 @@
 .more-speakers:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 44em) {
+  .speakers-section {
+    padding: 8rem 0;
+  }
+  .speakers-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .speakers-gap {
+    gap: 3.2rem;
+  }
+}
+
+/* 
+- Font sizes (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+      
+  - Spacing system (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+    
+*/

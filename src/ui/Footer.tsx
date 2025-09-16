@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { IoLogoFacebook, IoLogoTiktok } from 'react-icons/io5';

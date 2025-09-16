@@ -5,19 +5,19 @@ import confetti from 'canvas-confetti';
 
 const speakers = [
   {
+    imageUrl: '/images/speakers-section/elder-palhua.jpg',
+    description: 'Fotografia del Elder Palhua, Setenta de área',
+    name: 'Elder Palhua',
+    calling: 'Setenta de Área',
+    isPrincipal: true,
+  },
+  {
     imageUrl: '/images/speakers-section/presidente-huamani.jpg',
     description:
       'Fotografia del Presidente Huamani, Presidente de la estaca ayacucho',
     name: 'Presidente Huamani',
     calling: 'Presidente de la Estaca Ayacucho',
     isPrincipal: false,
-  },
-  {
-    imageUrl: '/images/speakers-section/elder-palhua.jpg',
-    description: 'Fotografia del Elder Palhua, Setenta de área',
-    name: 'Elder Palhua',
-    calling: 'Setenta de Área',
-    isPrincipal: true,
   },
   {
     imageUrl: '/images/speakers-section/presidente-zea.png',
@@ -57,7 +57,7 @@ export const SpeakersSection = () => {
     <section id="speakers-section" className="speakers-section">
       <div className="container">
         <div className="sub-heading">Discursantes</div>
-        <h2 className="heading-secondary margin-bt-lg">
+        <h2 className="heading-secondary">
           Siervos inspirados de Cristo listos para compartir su mensaje
         </h2>
         <div className="speakers-container grid grid--3-cols speakers-gap">
