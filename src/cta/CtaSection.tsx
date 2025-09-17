@@ -5,7 +5,7 @@ import Image from 'next/image';
 import confetti from 'canvas-confetti';
 import html2canvas from 'html2canvas';
 import Swal from 'sweetalert2';
-import { LuArrowLeft, LuDownload, LuTrash2 } from 'react-icons/lu';
+import { LuDownload } from 'react-icons/lu';
 
 import './cta.css';
 import { PiBroom } from 'react-icons/pi';
@@ -13,6 +13,12 @@ import { PiBroom } from 'react-icons/pi';
 export const CtaSection = () => {
   const [inputValue, setInputValue] = useState('');
   const exportRef = useRef(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const handleClearForm = () => {
+    setInputValue('');
+    inputRef.current?.focus();
+  };
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);
@@ -90,15 +96,13 @@ export const CtaSection = () => {
                 name="invitation-name"
                 id="invitation-name"
                 placeholder="Tu nombre o el de un ser querido"
+                ref={inputRef}
                 className="cta-input"
                 value={inputValue}
                 onChange={handleInput}
               />
               <div className="button-container">
-                <button
-                  onClick={() => setInputValue('')}
-                  className="cta-button-clear"
-                >
+                <button onClick={handleClearForm} className="cta-button-clear">
                   <PiBroom className="cta-button-icon" />
                 </button>
                 <button onClick={handleButtonDownload} className="cta-button">
