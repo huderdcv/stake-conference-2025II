@@ -6,7 +6,7 @@ import confetti from 'canvas-confetti';
 const speakers = [
   {
     imageUrl: '/images/speakers-section/elder-palhua.webp',
-    description: 'Fotografia del Elder Palhua, Setenta de área',
+    description: 'Discursante Elder Palhua, Setenta de área',
     name: 'Elder Palhua',
     calling: 'Setenta de Área',
     isPrincipal: true,
@@ -14,7 +14,7 @@ const speakers = [
   {
     imageUrl: '/images/speakers-section/presidente-huamani.webp',
     description:
-      'Fotografia del Presidente Huamani, Presidente de la estaca ayacucho',
+      'Discursante Presidente Eduardo Huamani, Presidente de la estaca ayacucho',
     name: 'Presidente Huamani',
     calling: 'Presidente de la Estaca Ayacucho',
     isPrincipal: false,
@@ -22,7 +22,7 @@ const speakers = [
   {
     imageUrl: '/images/speakers-section/presidente-zea.webp',
     description:
-      'Fotografia del Presidente Zea, segundo consejero de la presidencia de estaca ayacucho',
+      'Discursante Presidente Davir Zea, segundo consejero de la presidencia de estaca ayacucho',
     name: 'Presidente Zea',
     calling: '2do Consejero de la Estaca',
     isPrincipal: false,
@@ -30,7 +30,7 @@ const speakers = [
   {
     imageUrl: '/images/speakers-section/presidentes-byers.webp',
     description:
-      'Fotografia del Presidente Byers junto a su esposa la hermana Byers, Presidentes de la misión Perú Lima Sur',
+      'Discursantes Presidente Byers junto a su esposa la hermana Byers, Presidentes de la misión Perú Lima Sur',
     name: 'Pdte y Hna Byers',
     calling: 'Presidentes de la Misión Perú Lima Sur',
     isPrincipal: false,
@@ -38,7 +38,7 @@ const speakers = [
   {
     imageUrl: '/images/speakers-section/presidente-arangoitia.webp',
     description:
-      'Fotografia del Presidente Alex Arangoitia, Gerente de Bienestar y Autosuficiencia',
+      'Discursante Presidente Alex Arangoitia, Gerente de Bienestar y Autosuficiencia',
     name: 'Presidente Arangoitia',
     calling: 'Gerente de Bienestar y Autosuficiencia',
     isPrincipal: false,

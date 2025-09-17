@@ -37,6 +37,32 @@ export const metadata: Metadata = {
   title: 'Conferencia de Estaca Ayacucho | Fortalece tu fe en Cristo',
   description:
     'Participa en la Conferencia de Estaca Ayacucho. Mensajes de fe, esperanza y respuestas en Jesucristo para ti y tu familia.',
+  keywords: [
+    'Conferencia de Estaca',
+    'Jesucristo',
+    'Iglesia de Jesucristo de los Santos de los Últimos Días',
+    'fe',
+    'esperanza',
+    'Ayacucho',
+    'peru',
+    'invitacion',
+  ],
+  openGraph: {
+    title: 'Conferencia de Estaca Ayacucho 2025',
+    description:
+      'Fortalece tu fe y encuentra respuestas en Cristo en la Conferencia de Estaca Ayacucho. Descubre mensajes inspiradores, testimonios y mucho más.',
+    url: 'https://conferencia-estaca-ayacucho.vercel.app/',
+    siteName: 'Conferencia de Estaca Ayacucho 2025',
+    // images: [
+    //   {
+    //     url: 'https://tu-sitio.com/preview.jpg',
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    locale: 'es_PE',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

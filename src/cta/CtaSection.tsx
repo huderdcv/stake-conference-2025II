@@ -118,7 +118,7 @@ export const CtaSection = () => {
             <div className="cta-image-box">
               <Image
                 src={`/images/cta/conference-invitation-1.png`}
-                alt="Invitación de la conferencia de estaca ayacucho del 20 y 21 de septiembre"
+                alt="Invitación de la conferencia de estaca ayacucho del 20 y 21 de septiembre del 2025"
                 width={1965}
                 height={1600}
                 className="cta-image"

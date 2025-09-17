@@ -15,7 +15,7 @@ export const Navbar = () => {
         <Link href="#">
           <Image
             src="/images/navbar/logo-stake-brand-color.webp"
-            alt="logo de la estaca ayacucho"
+            alt="Logo de la estaca ayacucho"
             width={900}
             height={1203}
             className="logo"

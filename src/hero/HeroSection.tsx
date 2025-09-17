@@ -30,7 +30,7 @@ export const HeroSection = () => {
       <Image
         className="hero-image"
         src="/images/hero-section/picture_of_jesus_2.webp"
-        alt="image of jesuschrist"
+        alt="Jesucristo sonriendo"
         width={2592}
         height={2561}
         // style={{ width: '50%', height: 'auto' }}
