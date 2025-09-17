@@ -5,9 +5,10 @@ import Image from 'next/image';
 import confetti from 'canvas-confetti';
 import html2canvas from 'html2canvas';
 import Swal from 'sweetalert2';
-import { LuDownload } from 'react-icons/lu';
+import { LuArrowLeft, LuDownload, LuTrash2 } from 'react-icons/lu';
 
 import './cta.css';
+import { PiBroom } from 'react-icons/pi';
 
 export const CtaSection = () => {
   const [inputValue, setInputValue] = useState('');
@@ -50,7 +51,7 @@ export const CtaSection = () => {
     //alert
     Swal.fire({
       title: '¡Invitación descargada!',
-      text: 'Revisalo en tu dispositivo. No te olvides compartirlo.',
+      text: 'Revisalo en tu dispositivo. No olvides compartirlo.',
       icon: 'success',
       confirmButtonText: 'Aceptar',
       confirmButtonColor: '#3085d6',
@@ -66,7 +67,8 @@ export const CtaSection = () => {
     confetti({
       particleCount: 250,
       spread: 170,
-      origin: { y: 0.6 },
+      origin: { y: 0.7 },
+      zIndex: 9000,
     });
   };
   return (
@@ -87,15 +89,21 @@ export const CtaSection = () => {
                 type="text"
                 name="invitation-name"
                 id="invitation-name"
-                placeholder="Tu nombre o el de un amigo"
+                placeholder="Tu nombre o el de un ser querido"
                 className="cta-input"
                 value={inputValue}
                 onChange={handleInput}
               />
               <div className="button-container">
+                <button
+                  onClick={() => setInputValue('')}
+                  className="cta-button-clear"
+                >
+                  <PiBroom className="cta-button-icon" />
+                </button>
                 <button onClick={handleButtonDownload} className="cta-button">
                   <LuDownload className="cta-button-icon" />
-                  <span>Descargar invitación</span>
+                  <span>Descargar</span>
                 </button>
               </div>
             </div>
