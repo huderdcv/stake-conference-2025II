@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: 'https://conferencia-estaca-ayacucho.vercel.app/', // página principal
-      lastModified: new Date(), // última vez que cambió
+      lastModified: new Date().toISOString().split('T')[0], // última vez que cambió
       changeFrequency: 'weekly', // cada cuánto suele actualizarse
       priority: 1, // 1 = muy importante
     },
