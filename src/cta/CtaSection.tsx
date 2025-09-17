@@ -100,6 +100,7 @@ export const CtaSection = () => {
                 className="cta-input"
                 value={inputValue}
                 onChange={handleInput}
+                autoComplete="off"
               />
               <div className="button-container">
                 <button onClick={handleClearForm} className="cta-button-clear">
@@ -128,6 +129,7 @@ export const CtaSection = () => {
           {/* container oculto */}
           <div
             ref={exportRef}
+            className="container-invitation-hidden"
             style={{
               width: '1965px',
               height: '1600px',

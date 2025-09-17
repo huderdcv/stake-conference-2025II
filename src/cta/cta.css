@@ -97,12 +97,27 @@
   font-size: 2rem;
   color: #333;
 }
+
+/* .container-invitation-hidden {
+  width: 1965px;
+  height: 1600px;
+  position: 'absolute';
+  left: -9999px; 
+  top: 0;
+  background-image: url('/images/cta/conference-invitation-1.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 .cta-image-text-2 {
   position: absolute;
-  top: 32.5%;
+  top: 32.6%;
   left: 57%;
   font-family: var(--font-great-vibes);
-  font-size: 7rem;
+  font-size: 6.7rem;
   color: #333;
 }
 
@@ -127,6 +142,13 @@ TABLETS
 944px 
 59em
 */
+
+@media (max-width: 75em) {
+  .cta-image-text-2 {
+    top: 32.7%;
+    font-size: 8rem;
+  }
+}
 @media (max-width: 59em) {
   .cta-container {
     grid-template-columns: 1fr;
