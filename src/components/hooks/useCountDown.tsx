@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react';
 
 interface Props {
-  expired: null | boolean;
+  isEventFinish: null | boolean;
+  isEventLive: null | boolean;
   days: number;
   hours: number;
   minutes: number;
@@ -11,9 +12,10 @@ interface Props {
   isLoading: boolean;
 }
 
-export const useCountDown = (eventDate: number) => {
+export const useCountDown = (eventDate: number, finishDate: number) => {
   const [timerLeft, setTimerLeft] = useState<Props>({
-    expired: null,
+    isEventFinish: null,
+    isEventLive: null,
     days: 0,
     hours: 0,
     minutes: 10,
@@ -32,11 +34,33 @@ export const useCountDown = (eventDate: number) => {
 
   const calculateTimeLeft = () => {
     const nowDate = new Date().getTime();
-    const difference = eventDate - nowDate;
+    const difEventDate = eventDate - nowDate;
+    const difEventFinish = finishDate - nowDate;
 
-    if (difference <= 0) {
+    if (difEventDate > 0) {
       return {
-        expired: true,
+        isEventFinish: false,
+        isEventLive: false,
+        days: Math.floor(difEventDate / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((difEventDate / (1000 * 60 * 60)) % 24),
+        minutes: Math.floor((difEventDate / (1000 * 60)) % 60),
+        seconds: Math.floor((difEventDate / 1000) % 60),
+        isLoading: false,
+      };
+    } else if (difEventDate <= 0 && difEventFinish > 0) {
+      return {
+        isEventFinish: false,
+        isEventLive: true,
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+        isLoading: false,
+      };
+    } else {
+      return {
+        isEventFinish: true,
+        isEventLive: false,
         days: 0,
         hours: 0,
         minutes: 0,
@@ -44,15 +68,6 @@ export const useCountDown = (eventDate: number) => {
         isLoading: false,
       };
     }
-
-    return {
-      expired: false,
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-      minutes: Math.floor((difference / (1000 * 60)) % 60),
-      seconds: Math.floor((difference / 1000) % 60),
-      isLoading: false,
-    };
   };
 
   return {
