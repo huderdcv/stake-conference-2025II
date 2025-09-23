@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: 'Conferencia de Estaca Ayacucho 2025',
     images: [
       {
-        url: '/public/images/conference-image.png',
+        url: '/images/conference-image.png',
         width: 980,
         height: 641,
       },
