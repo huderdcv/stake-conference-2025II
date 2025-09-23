@@ -53,13 +53,13 @@ export const metadata: Metadata = {
       'Fortalece tu fe y encuentra respuestas en Cristo en la Conferencia de Estaca Ayacucho. Descubre mensajes inspiradores, testimonios y mucho más.',
     url: 'https://conferencia-estaca-ayacucho.vercel.app/',
     siteName: 'Conferencia de Estaca Ayacucho 2025',
-    // images: [
-    //   {
-    //     url: 'https://tu-sitio.com/preview.jpg',
-    //     width: 1200,
-    //     height: 630,
-    //   },
-    // ],
+    images: [
+      {
+        url: '/public/images/conference-image.png',
+        width: 980,
+        height: 641,
+      },
+    ],
     locale: 'es_PE',
     type: 'website',
   },
